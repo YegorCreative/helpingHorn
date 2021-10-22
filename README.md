@@ -1,0 +1,2 @@
+# helpingHorn
+We are a missionary team focused on bringing change to East African regions with the greatest needs. Helping the Horn is simply the website we use to show all of our projects. Our missions team works with an organization called “World Missions &amp; Evangelism” to accomplish these projects. All donations are given to and collected by “World Missions &amp; Evangelism” and used 100% for funding the projects
