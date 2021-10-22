@@ -160,3 +160,52 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+/* paralax*/
+.parallax1, .parallax2 {
+    
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax1{
+    /* The image used */
+    background-image: url("../Assets/paralax1.png");
+} 
+
+.parallax2{
+    /* The image used */
+    background-image: url("../Assets/paralax2.png");
+} 
+
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax1, .parallax2 {
+      background-attachment: scroll;
+    }
+  }
+
+
+.textOver{
+    font-size: 60px;
+    color: #f1f1f1;
+}
+.informationPart{
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
