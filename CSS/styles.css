@@ -162,7 +162,7 @@ body {
 }
 
 /* paralax*/
-.parallax1, .parallax2 {
+.parallax1, .parallax2, .parallax3 {
     
   width: 100%;
   box-sizing: border-box;
@@ -188,6 +188,10 @@ body {
     /* The image used */
     background-image: url("../Assets/paralax2.png");
 } 
+.parallax3{
+    /* The image used */
+    background-image: url("../Assets/paralax3.png");
+} 
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
@@ -200,6 +204,7 @@ body {
 .textOver{
     font-size: 60px;
     color: #f1f1f1;
+    text-shadow:5px 5px 10px black;
 }
 .informationPart{
     width: 100%;
@@ -208,4 +213,61 @@ body {
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.informationPart h2{
+    border-top: 5px solid #F1C43C;
+    max-width: 968px;
+    text-align: center;
+    padding-top: 20px;
+}
+.howItWorks{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.howItWorks h1{
+    text-align: center;
+    color: #658B49;
+}
+.twoParts{
+    max-width: 1024px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.twoParts img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.clickBelow{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.oneButton {
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    border: solid 0.5px #A6BF4B;
+    box-shadow: 7px 7px 13px 2px #A6BF4B;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    color: black;
+}
+.oneButton:hover{
+    background-color: #A6BF4B; 
+    box-shadow: 7px 7px 13px 2px #F1C43C;
+    color: white;
 }
