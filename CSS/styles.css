@@ -140,8 +140,11 @@ body {
 /* first banner*/
 .firstBanner{
     width: 100%;
+    height: 100vh;
     box-sizing: border-box;
-    position: relative;
+    background-image: url(../Assets/firstBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .firstPicture{
@@ -150,15 +153,14 @@ body {
 }
 .positionLogo{
     width: 100%;
-    position: absolute;
-    top: 150px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .logo{
-    max-width: 280px;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 250px;
+    width: 100%;  
+    margin-top: 60px;
 }
 
 /* paralax*/
@@ -195,7 +197,7 @@ body {
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .parallax1, .parallax2 {
+    .parallax1, .parallax2, .parallax3 {
       background-attachment: scroll;
     }
   }
@@ -205,6 +207,7 @@ body {
     font-size: 60px;
     color: #f1f1f1;
     text-shadow:5px 5px 10px black;
+    text-align: center;
 }
 .informationPart{
     width: 100%;
@@ -251,19 +254,18 @@ body {
     text-align: center;
 }
 .oneButton {
-    width: 100%;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
     background-color: white;
     border-radius: 15px;
     text-decoration: none;
     font-size: 18px;
-    border: solid 0.5px #A6BF4B;
+    border: solid 0.1px #A6BF4B;
     box-shadow: 7px 7px 13px 2px #A6BF4B;
     margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 280px;
     color: black;
 }
 .oneButton:hover{
@@ -273,7 +275,25 @@ body {
 }
 footer{
     width: 100%;
-    height: 250px;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
     background-color: wheat;
     margin-top: 30px;
+}
+.footerLinks{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.projext{
+margin-left: 10px;
+margin-right: 10px;
+text-decoration:none ;
+color: #658B49;
+font-size: 18px;
 }

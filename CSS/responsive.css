@@ -1,0 +1,9 @@
+@media screen and (min-width: 321px){
+
+}
+
+@media screen and (max-width: 767px){
+    .textOver{
+        font-size: 40px;
+    }
+}
