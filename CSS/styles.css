@@ -21,7 +21,7 @@ body {
     font-size: 14px;
     background-color: #0000;
     color:black;
-    /*font-family: 'Bebas Neue', cursive;*/
+    /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Montserrat', sans-serif;  
 }
 
@@ -164,7 +164,7 @@ body {
 }
 
 /* paralax*/
-.parallax1, .parallax2, .parallax3 {
+.parallax1, .parallax2, .parallax3, .parallax4 {
     
   width: 100%;
   box-sizing: border-box;
@@ -179,6 +179,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
   }
 
   .parallax1{
@@ -194,10 +195,14 @@ body {
     /* The image used */
     background-image: url("../Assets/paralax3.png");
 } 
+.parallax4{
+  /* The image used */
+  background-image: url("../Assets/paralax4.png");
+} 
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .parallax1, .parallax2, .parallax3 {
+    .parallax1, .parallax2, .parallax3, .parallax4 {
       background-attachment: scroll;
     }
   }
@@ -206,7 +211,7 @@ body {
 .textOver{
     font-size: 60px;
     color: #f1f1f1;
-    text-shadow:5px 5px 10px black;
+    text-shadow:5px 5px 10px rgb(180, 176, 176);
     text-align: center;
 }
 .informationPart{
@@ -296,4 +301,52 @@ margin-right: 10px;
 text-decoration:none ;
 color: #658B49;
 font-size: 18px;
+}
+
+.excited, .crisis{
+  max-width: 1024px;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-shadow:5px 5px 10px rgb(53, 52, 52);
+}
+/* all projects tabcontent */
+/* Style the tab buttons */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Style each tab content individually */
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
+
+.crisis{
+
 }
