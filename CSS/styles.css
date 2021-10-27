@@ -173,7 +173,7 @@ body {
   align-items:center;
     /* Set a specific height */
     min-height: 500px;
-  
+    border-top: #A6BF4B solid 15px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -199,6 +199,7 @@ body {
   /* The image used */
   background-image: url("../Assets/paralax4.png");
   height: 100vh;
+  
 } 
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -326,7 +327,7 @@ font-size: 18px;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 20%;
 }
 
 /* Change background color of buttons on hover */
@@ -336,17 +337,17 @@ font-size: 18px;
 
 /* Set default styles for tab content */
 .tabcontent {
-  color: white;
+  color: black;
   display: none;
   padding: 50px;
   text-align: center;
 }
 
 /* Style each tab content individually */
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
+#London {background-color:#F2EFD5;}
+#Paris {background-color:#F2EFD5;}
+#Tokyo {background-color:white;}
+#Oslo {background-color:white;}
 
 .crisis{
 
