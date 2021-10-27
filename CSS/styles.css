@@ -341,6 +341,7 @@ font-size: 18px;
   display: none;
   padding: 50px;
   text-align: center;
+  
 }
 
 /* Style each tab content individually */
@@ -357,4 +358,11 @@ font-size: 18px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+}
+
+.mainH{
+  margin-top: 35px;
+}
+#cityName{
+  flex-direction: column;
 }

@@ -51,8 +51,10 @@ function myFunction() {
     }
   
     // Show the specific tab content
-    document.getElementById(cityName).style.display = "block";
-  
+    document.getElementById(cityName).style.display = "flex";
+    document.getElementById(cityName).style.flexDirection = "column";
+    document.getElementById(cityName).style.boxSizing = "border-Box";
+    document.getElementById(cityName).style.marginTop = "40px";
     // Add the specific color to the button used to open the tab content
     elmnt.style.backgroundColor = color;
   }
