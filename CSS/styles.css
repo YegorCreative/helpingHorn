@@ -392,3 +392,7 @@ font-size: 18px;
   background-color: #A6BF4B;
   border-radius: 15px;
 }
+.giveWon:hover{
+  background-color: #F1C43C;
+  color: #658B49;
+}
