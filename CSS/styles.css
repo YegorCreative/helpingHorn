@@ -175,7 +175,7 @@ body {
 .parallax1, .parallax2, .parallax3,
  .parallax4, .parallax5, .parallax6,
  .parallax7, .parallax8, .parallax9,
- .parallax10 {
+ .parallax10, .parallax11 {
     
   width: 100%;
   box-sizing: border-box;
@@ -239,13 +239,18 @@ body {
   justify-content: center;
   align-items: center;
 } 
+.parallax11{
+  /* The image used */
+  background-image: url("../Assets/giveNow.png");
+  height: 600px;
+} 
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
     .parallax1, .parallax2, .parallax3,
      .parallax4, .parallax5,.parallax6,
       .parallax7, .parallax8, .parallax9,
-      .paralax10 {
+      .paralax10, .parallax11 {
       background-attachment: scroll;
     }
   }
@@ -490,4 +495,15 @@ input {
 }
 .contactForms, .container{
   background-color: #d9e6ab;
+}
+.givingInstructions{
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.theGivePage{
+  width: 100%;
+  height: 140vh;
+  box-sizing: border-box;
+  position: relative;
 }
