@@ -527,3 +527,22 @@ input {
   position: relative;
 }
 /*test animations*/
+
+.square, .square2, .square3 {
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+  opacity: 0;
+  transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.square, .square2, .square3 {
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+}
+
+.square-transition, .square-transition2, .square-transition3 {
+  opacity: 1;
+  transform: none;
+}
