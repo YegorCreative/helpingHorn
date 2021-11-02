@@ -43,7 +43,7 @@ body {
     left: 0;
     top: 0;
     background-color: rgb(0,0,0); /* Black fallback color */
-    background-image: url(../Assets/overlayMenu.png); /* Black w/opacity */
+    background-image: url(../Assets/helpingHornMenu.png); /* Black w/opacity */
     background-size: cover;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -281,7 +281,16 @@ body {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    animation-name: example;
+   animation-duration: 10s; 
+   animation-iteration-count: infinite;
 }
+/*@keyframes example {
+  0%   {olor:#658B49;}
+  25%  {color: #A6BF4B;}
+  50%  {color: #B0B1AB;}
+  100% {color: #F1C43C;}
+}*/
 .informationPart h2{
     border-top: 5px solid #F1C43C;
     max-width: 968px;
@@ -314,6 +323,7 @@ body {
     width: 100%;
     padding: 20px;
     text-align: center;
+    margin-top: -75px;
 }
 .oneButton {
     padding-top: 9px;
@@ -325,14 +335,14 @@ body {
     text-decoration: none;
     font-size: 18px;
     border: solid 0.1px #A6BF4B;
-    box-shadow: 7px 7px 13px 2px #A6BF4B;
+    box-shadow: 2px 2px 12px 2px #A6BF4B;
     margin-bottom: 80px;
     margin-top: 280px;
     color: black;
 }
 .oneButton:hover{
     background-color: #A6BF4B; 
-    box-shadow: 7px 7px 13px 2px #F1C43C;
+    box-shadow: 3px 3px 3px 2px #F1C43C;
     color: white;
 }
 footer{
@@ -343,6 +353,7 @@ footer{
    align-items: center;
     background-color: wheat;
     margin-top: 30px;
+    padding-bottom: 60px;
 }
 .footerLinks{
   width: 100%;
@@ -515,3 +526,4 @@ input {
   box-sizing: border-box;
   position: relative;
 }
+/*test animations*/
