@@ -143,6 +143,7 @@ body {
     z-index: 50;
     position: fixed;
     top: 1px;
+    cursor: pointer;
 }
 
 /* first banner*/
