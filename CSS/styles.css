@@ -144,6 +144,7 @@ body {
     position: fixed;
     top: 1px;
     cursor: pointer;
+    left: 10px;
 }
 
 /* first banner*/
@@ -151,9 +152,13 @@ body {
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    background-image: url(../Assets/firstBackground.png);
+    background-image: url(../Assets/first-Background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .firstPicture{
@@ -260,11 +265,11 @@ body {
 .textOver{
     font-size: 60px;
     color: #f1f1f1;
-    text-shadow:5px 5px 10px rgb(80, 88, 62);
     text-align: center;
     padding: 25px;
 }
 .informationPart{
+  max-width: 740px;
     width: 100%;
     box-sizing: border-box;
     padding-top: 50px;
@@ -274,6 +279,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 .informationPart h2{
     border-top: 5px solid #F1C43C;
