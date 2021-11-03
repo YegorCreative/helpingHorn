@@ -256,7 +256,7 @@ body {
     .parallax1, .parallax2, .parallax3,
      .parallax4, .parallax5,.parallax6,
       .parallax7, .parallax8, .parallax9,
-      .paralax10, .parallax11 {
+      .paralax10, .parallax11, .overlay {
       background-attachment: scroll;
     }
   }
