@@ -233,6 +233,7 @@ body {
       .parallax7, .parallax8, .parallax9,
       .paralax10, .parallax11 {
       background-attachment: scroll;
+      background-size: contain;
     }
   }
 
