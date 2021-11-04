@@ -203,7 +203,7 @@ body {
 .parallax10{
   /* The image used */
   background-image: url("../Assets/howItWorks.png");
-  
+  background-position: top;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,7 +224,7 @@ body {
 }
 
 .two{
-  z-index: 9;
+  z-index: 1;
 }
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
