@@ -233,7 +233,6 @@ body {
       .parallax7, .parallax8, .parallax9,
       .paralax10, .parallax11 {
       background-attachment: scroll;
-      background-size: contain;
     }
   }
 
@@ -589,6 +588,7 @@ transform: translateY(8px) scale(1, 1);
 .card{
   position: relative;
   width: 428px;
+  height: 750px;
   padding-bottom: 50px;
   background-color: #fff;
   box-shadow: 0px 0px 15px 0px #474747;
@@ -604,8 +604,13 @@ transform: translateY(8px) scale(1, 1);
   line-height: 30px;
 }
 .card h2{
-  font-size: 32px;
+  font-size: 25px;
   margin-bottom: 20px;
+  color: #658B49;
+  font-family: 'Poppins', sans-serif;
+}
+.card h3{
+  text-align: center;
 }
 .card .more-btn{
   width: 100px;
