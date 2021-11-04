@@ -229,7 +229,13 @@ body {
     }
   }
 
-
+  .color10 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #648b4959;
+    z-index: 0;
+}
 .textOver{
     font-size: 60px;
     color: #f1f1f1;
