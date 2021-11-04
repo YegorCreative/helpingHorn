@@ -203,7 +203,7 @@ body {
 .parallax10{
   /* The image used */
   background-image: url("../Assets/howItWorks.png");
-  height: 600px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
