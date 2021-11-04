@@ -336,26 +336,7 @@ body {
     text-align: center;
     margin-top: -75px;
 }
-.oneButton {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 35px;
-    padding-right: 35px;
-    background-color: white;
-    border-radius: 15px;
-    text-decoration: none;
-    font-size: 18px;
-    border: solid 0.1px #A6BF4B;
-    box-shadow: 2px 2px 12px 2px #A6BF4B;
-    margin-bottom: 80px;
-    margin-top: 280px;
-    color: black;
-}
-.oneButton:hover{
-    background-color: #A6BF4B; 
-    box-shadow: 3px 3px 3px 2px #F1C43C;
-    color: white;
-}
+
 footer{
     width: 100%;
    box-sizing: border-box;
@@ -685,4 +666,10 @@ box-shadow: 0px 0px 15px 0px #474747;
 }
 .more-text.active{
   bottom: 0;
+}
+.greenLine{
+  width: 92%;
+  height: 10px;
+  background-color: #A6BF4B;
+  margin: 0 auto;
 }
