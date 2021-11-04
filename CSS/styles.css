@@ -574,7 +574,7 @@ transform: translateY(8px) scale(1, 1);
 }
 /* wrapper for projects*/
 .wrapper{
-  padding: 60px;
+  padding: 25px;
   box-sizing: border-box;
 }
  .card img{
