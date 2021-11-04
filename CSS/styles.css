@@ -305,16 +305,8 @@ body {
 .twoParts img {
     margin-top: 20px;
     margin-bottom: 20px;
-    transform: translateX(10px) scale(1, 1);
-    transition: transform 0.2s ease-in;
 }
-.twoParts img:hover{
-  transform: scale(1, 1);
-  border: solid 3px #658B49;
-  border-radius: 25px;
-  transition: transform 0.2s ease-in;
-  box-shadow: 0px 0px 15px 0px #474747;
-}
+
 .clickBelow{
     width: 100%;
     padding: 20px;
