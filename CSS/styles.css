@@ -386,7 +386,7 @@ font-size: 24px;
   background-color: #F2EFD5;
 }
 .orange{
-  color: orange;
+  color: #F1C43C;
 }
 .giveNow{
   width: 100%;
@@ -588,7 +588,7 @@ transform: translateY(8px) scale(1, 1);
 .card{
   position: relative;
   width: 428px;
-  height: 750px;
+  height: 710px;
   padding-bottom: 50px;
   background-color: #fff;
   box-shadow: 0px 0px 15px 0px #474747;
@@ -608,6 +608,7 @@ transform: translateY(8px) scale(1, 1);
   margin-bottom: 20px;
   color: #658B49;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 .card h3{
   text-align: center;
