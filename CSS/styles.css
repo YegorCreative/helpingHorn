@@ -144,7 +144,8 @@ body {
 .parallax1, .parallax2, .parallax3,
  .parallax4, .parallax5, .parallax6,
  .parallax7, .parallax8, .parallax9,
- .parallax10, .parallax11 {
+ .parallax10, .parallax11, .parallax12,
+ .parallax13 {
     
   width: 100%;
   box-sizing: border-box;
@@ -214,7 +215,15 @@ body {
   background-image: url("../Assets/giveNow.png");
   height: 600px;
 } 
-
+.parallax12{
+  /* The image used */
+  background-image: url("../Assets/micro-loans-banner.png");
+  background-position: top;
+} 
+.parallax13{
+  /* The image used */
+  background-image: url("../Assets/invest.png");
+} 
 
 .two{
   z-index: 1;
@@ -224,7 +233,8 @@ body {
     .parallax1, .parallax2, .parallax3,
      .parallax4, .parallax5,.parallax6,
       .parallax7, .parallax8, .parallax9,
-      .parallax10, .parallax11 {
+      .parallax10, .parallax11, .parallax12,
+      .parallax13 {
       background-attachment: scroll;
     }
   }
@@ -350,6 +360,30 @@ font-size: 24px;
   padding: 20px;
   box-sizing: border-box;
   text-shadow:5px 5px 10px rgb(53, 52, 52);
+}
+.microLoans{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.crisis2{
+  max-width: 1024px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 29px;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 300;
+  font-size: 18px;
+  
 }
 /* all projects tabcontent */
 
@@ -655,4 +689,17 @@ transform: translateY(8px) scale(1, 1);
 }
 .more-text.active{
   bottom: 0;
+}
+
+.levels{
+  max-width: 1024px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: #d5d6cc;
+  box-shadow: 5px 5px 15px -5px #000000;
+  padding: 15px;
+  padding-bottom: 30px;
+  margin-top: 0;
+  text-align: center;
 }
