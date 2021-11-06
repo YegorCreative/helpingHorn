@@ -721,6 +721,7 @@ transform: translateY(8px) scale(1, 1);
   box-sizing: border-box;
   padding: 20px;
   flex-direction: column;
+  color: #658B49;
 
 }
 .options h3{
