@@ -240,7 +240,7 @@ body {
      .parallax4, .parallax5,.parallax6,
       .parallax7, .parallax8, .parallax9,
       .parallax10, .parallax11, .parallax12,
-      .parallax13,.parallax14 {
+      .parallax13, .parallax14 {
       background-attachment: scroll;
     }
   }
@@ -726,6 +726,6 @@ transform: translateY(8px) scale(1, 1);
 }
 .options h3{
   font-size: 18px;
-  line-height: 10px;
+  line-height: 24px;
   font-weight: 400;
 }
