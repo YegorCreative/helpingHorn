@@ -145,7 +145,7 @@ body {
  .parallax4, .parallax5, .parallax6,
  .parallax7, .parallax8, .parallax9,
  .parallax10, .parallax11, .parallax12,
- .parallax13, .parallax14 {
+ .parallax13, .parallax14, .parallax15{
     
   width: 100%;
   box-sizing: border-box;
@@ -230,7 +230,11 @@ body {
   margin-top: 25px;
   position: relative;
 } 
-
+.parallax15 {
+  /* The image used */
+  background-image: url("../Assets/invetsment.png");
+  position: relative;
+} 
 .two{
   z-index: 1;
 }
@@ -240,7 +244,7 @@ body {
      .parallax4, .parallax5,.parallax6,
       .parallax7, .parallax8, .parallax9,
       .parallax10, .parallax11, .parallax12,
-      .parallax13, .parallax14 {
+      .parallax13, .parallax14, .parallax15 {
       background-attachment: scroll;
     }
   }
@@ -426,6 +430,7 @@ font-size: 24px;
   padding: 30px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .giveWon{
   margin:0 auto;
