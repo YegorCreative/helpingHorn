@@ -178,7 +178,7 @@ body {
 } 
 .parallax4{
   /* The image used */
-  background-image: url("../Assets/paralax4.png");
+  background-image: url("../Assets/crisis2.png");
   height: 100vh;
 } 
 .parallax5{
@@ -217,7 +217,7 @@ body {
 } 
 .parallax12{
   /* The image used */
-  background-image: url("../Assets/micro-loans-banner.png");
+  background-image: url("../Assets/macroLoans2.png");
   background-position: top;
 } 
 .parallax13{
@@ -232,7 +232,7 @@ body {
 } 
 .parallax15 {
   /* The image used */
-  background-image: url("../Assets/invetsment.png");
+  background-image: url("../Assets/largeInvestments2.jpg");
   position: relative;
 } 
 .two{
@@ -434,8 +434,8 @@ font-size: 24px;
 }
 .giveWon{
   margin:0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   padding-right: 25px;
   padding-left: 25px;
   border: 1px solid #A6BF4B;
@@ -446,8 +446,8 @@ font-size: 24px;
   border-radius: 15px;
 }
 .giveWon:hover{
-  background-color: #F1C43C;
-  color: #658B49;
+  background-color: rgb(31, 145, 133);
+  color: #F1C43C;
 }
 /* contact us */
 .contactForms, .container{
