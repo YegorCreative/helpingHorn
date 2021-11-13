@@ -48,6 +48,7 @@ body {
     background-position: center;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  z-index: 20;
   }
   
   /* Position the content inside the overlay */
@@ -145,7 +146,7 @@ body {
  .parallax4, .parallax5, .parallax6,
  .parallax7, .parallax8, .parallax9,
  .parallax10, .parallax11, .parallax12,
- .parallax13, .parallax14, .parallax15{
+ .parallax15{
     
   width: 100%;
   box-sizing: border-box;
@@ -220,16 +221,6 @@ body {
   background-image: url("../Assets/macroLoans2.png");
   background-position: top;
 } 
-.parallax13{
-  /* The image used */
-  background-image: url("../Assets/invest.png");
-} 
-.parallax14{
-  /* The image used */
-  background-image: url("../Assets/options2.png");
-  margin-top: 25px;
-  position: relative;
-} 
 .parallax15 {
   /* The image used */
   background-image: url("../Assets/largeInvestments2.jpg");
@@ -244,7 +235,7 @@ body {
      .parallax4, .parallax5,.parallax6,
       .parallax7, .parallax8, .parallax9,
       .parallax10, .parallax11, .parallax12,
-      .parallax13, .parallax14, .parallax15 {
+     .parallax15 {
       background-attachment: scroll;
     }
   }
@@ -664,7 +655,7 @@ transform: translateY(8px) scale(1, 1);
   line-height: 60px;
   color: #fff;
   cursor: pointer;
-  z-index: 9;
+  z-index: 1;
   font-size: 20px;
   transition: all ease 0.5s;
 }
@@ -672,6 +663,7 @@ transform: translateY(8px) scale(1, 1);
   background-color: #dff590;
   color: #495057;
 }
+
 .more-text{
   position: absolute;
   bottom: -100%;
@@ -703,34 +695,4 @@ transform: translateY(8px) scale(1, 1);
   bottom: 0;
 }
 
-.levels{
-  max-width: 1024px;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
-  background-color: #A6BF4B;
-  color: white;
-  box-shadow: 5px 5px 15px -5px #000000;
-  padding: 15px;
-  padding-bottom: 30px;
-  margin-top: 0;
-  text-align: center;
-}
-.options{
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  flex-direction: column;
-  color: #658B49;
 
-}
-.options h3{
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-}
