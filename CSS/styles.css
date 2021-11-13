@@ -145,7 +145,7 @@ body {
 .parallax1, .parallax2, .parallax3,
  .parallax4, .parallax5, .parallax6,
  .parallax7, .parallax8, .parallax9,
- .parallax10, .parallax11, .parallax12,
+ .parallax10, .parallax12,
  .parallax15{
     
   width: 100%;
@@ -211,11 +211,7 @@ body {
   align-items: center;
  position: relative;
 } 
-.parallax11{
-  /* The image used */
-  background-image: url("../Assets/giveNow.png");
-  height: 600px;
-} 
+
 .parallax12{
   /* The image used */
   background-image: url("../Assets/macroLoans2.png");
@@ -234,7 +230,7 @@ body {
     .parallax1, .parallax2, .parallax3,
      .parallax4, .parallax5,.parallax6,
       .parallax7, .parallax8, .parallax9,
-      .parallax10, .parallax11, .parallax12,
+      .parallax10, .parallax12,
      .parallax15 {
       background-attachment: scroll;
     }
